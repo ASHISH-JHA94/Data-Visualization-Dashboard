@@ -27,7 +27,7 @@ function App() {
           <main className="content">
             <Topbar />
             <Routes basename="/react-admin-dashboard">
-              <Route path="/react-admin-dashboard/" element={<Dashboard />} />
+              <Route path="/" element={<Dashboard />} />
               <Route path="/react-admin-dashboard/filters" element={<DataFilter/>}/>
               <Route path="/react-admin-dashboard/calendar" element={<Calendar/>}/>
               <Route path="/react-admin-dashboard/faq" element={<Faq/>} />
