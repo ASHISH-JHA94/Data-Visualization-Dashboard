@@ -11,7 +11,7 @@ export const DataProvider = ({ children }) => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('http://localhost:8080/getData');
+                const response = await axios.get('https://data-visualization-dashboard-rho.vercel.app/getData');
                 console.log('Fetched data:', response.data); 
                 setData(response.data);
             } catch (error) {
