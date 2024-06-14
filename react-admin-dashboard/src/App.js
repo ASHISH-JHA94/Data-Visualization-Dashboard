@@ -26,15 +26,15 @@ function App() {
           <Sidebar />
           <main className="content">
             <Topbar />
-            <Routes basename="/react-admin-dashboard">
+            <Routes >
               <Route path="/" element={<Dashboard />} />
-              <Route path="/react-admin-dashboard/filters" element={<DataFilter/>}/>
-              <Route path="/react-admin-dashboard/calendar" element={<Calendar/>}/>
-              <Route path="/react-admin-dashboard/faq" element={<Faq/>} />
-              <Route path="/react-admin-dashboard/bar" element={<Bar/>}/>
-              <Route path="/react-admin-dashboard/pie" element={<Pie/>}/>
-              <Route path="/react-admin-dashboard/line" element={<Line/>}/>
-              <Route path="/react-admin-dashboard/geography" element={<Geography/>}/>
+              <Route path="/filters" element={<DataFilter/>}/>
+              <Route path="/calendar" element={<Calendar/>}/>
+              <Route path="/faq" element={<Faq/>} />
+              <Route path="/bar" element={<Bar/>}/>
+              <Route path="/pie" element={<Pie/>}/>
+              <Route path="/line" element={<Line/>}/>
+              <Route path="/geography" element={<Geography/>}/>
             </Routes>
           </main>
         </div>
